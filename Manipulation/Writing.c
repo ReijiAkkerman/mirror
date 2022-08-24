@@ -3,7 +3,7 @@
 
 #include "Global/Global_variables.h"
 #include "Data/Data.h"
-
+ 
 char* _full_path(void);                                 // возвращает в одной строке имя пути и имя файла данных
 char* _filename(void);                                  // возвращает имя файла куда будут записываться итоговые данные
 int _filename_size(void);                               // возвращает количество байт требуемое для формирования имени файла данных

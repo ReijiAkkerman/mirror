@@ -1,4 +1,4 @@
-#include "Global/Global_structs.h"
+#include "../Global/Global_structs.h"
 
 // Интерфейс
 
