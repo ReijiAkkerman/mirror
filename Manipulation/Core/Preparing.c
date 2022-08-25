@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Global/Global_variables.h"
-#include "Data/Data.h"
+#include "../Global/headers/Global_variables.h"
+#include "../Data/headers/Data.h"
 
 void _skills_preparing(void);
 void _aims_preparing(void);

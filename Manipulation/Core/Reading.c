@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Global/Global_variables.h"
-#include "Data/Data.h"
+#include "../Global/headers/Global_variables.h"
+#include "../Data/headers/Data.h"
 
 void _short_reading_skills(char* p_temp);
 void _short_reading_aims(char* p_temp);
@@ -23,7 +23,7 @@ void _reading(void) {                       // считывает данные �
     char temp[256];
     char* p_temp = temp;
     FILE* fp;
-    if((fp = fopen("filename.txt", "r")) == NULL) {
+    if((fp = fopen("Data/filename.txt", "r")) == NULL) {
         perror("Ошибка чтения имени файла");
         exit(0);
     }

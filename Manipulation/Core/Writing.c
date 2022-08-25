@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Global/Global_variables.h"
-#include "Data/Data.h"
+#include "../Global/headers/Global_variables.h"
+#include "../Data/headers/Data.h"
  
 char* _full_path(void);                                 // возвращает в одной строке имя пути и имя файла данных
 char* _filename(void);                                  // возвращает имя файла куда будут записываться итоговые данные
@@ -25,7 +25,7 @@ void _writing(void) {                                   // запись итог
     }
     fputs(a, fp);
     fclose(fp);
-    if((fp = fopen("filename.txt", "w")) == NULL) {
+    if((fp = fopen("Data/filename.txt", "w")) == NULL) {
         perror("Ошибка чтения файла");
         exit(0);
     }

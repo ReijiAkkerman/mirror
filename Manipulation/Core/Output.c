@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "Global/Global_variables.h"
-#include "Data/Data.h"
+#include "../Global/headers/Global_variables.h"
+#include "../Data/headers/Data.h"
 
 void _value_divider(void);                              // вычисляет подходящий делитель для строки пятого типа 
 int _difference_of_spaces(void);                        // возвращает число на какое количество пробелов изменить первую чать строки чтобы части были равными и индекс той строки которой нужно большее количество пробелов

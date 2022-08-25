@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 
-#include "Global/Global_variables.h"
+#include "../Global/headers/Global_variables.h"
 
 void _calc_days_months_years_and_day_of_week(void);     // считает дни, месяцы, годы и дни недели
 int _calc_hours(void);                                  // считает часы, возвращает дни

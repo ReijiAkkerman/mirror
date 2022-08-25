@@ -1,1 +1,0 @@
-void _1_start(void);
