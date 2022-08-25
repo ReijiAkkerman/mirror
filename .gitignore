@@ -1,0 +1,5 @@
+*.[oais]
+*.out
+*.txt
+*.js
+.vscode/
