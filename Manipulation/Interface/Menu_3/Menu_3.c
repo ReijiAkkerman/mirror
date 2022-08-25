@@ -62,7 +62,7 @@ void _change_data_menu3_2(void) {
     }
 }
 
-void _print_change_data_menu3_2(void) {
+void _print_change_data_menu3_2(void) { // печатает меню выбора навыка
     printf("%s\n\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, skills_menu[0].str1, skills_menu[1].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[1]);
     printf("\n");
@@ -98,7 +98,7 @@ void _change_data_menu3_2_1(void) {
     }
 }
 
-void _print_change_data_menu3_2_1(void) {
+void _print_change_data_menu3_2_1(void) {   // печатает меню параметров изменения навыков
     printf("%s\n\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, change_data1_2[0].str1, change_data1_2[1].str1, change_data1_2[2].str1, change_data1_2[3].str1, change_data1_2[4].str1, change_data1_2[5].str1, change_data1_2[6].str1, change_data1_2[7].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[2]);
     printf("\n");
@@ -116,7 +116,7 @@ void _change_data_menu3_3(void) {
     }
 }
 
-void _print_change_data_menu3_3(void) {
+void _print_change_data_menu3_3(void) { // печатает меню выбора цели
     printf("%s\n\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, aims_menu[0].str1, aims_menu[1].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[1]);
     printf("\n");
@@ -149,7 +149,7 @@ void _change_data_menu3_3_1(void) {
     }
 }
 
-void _print_change_data_menu3_3_1(void) {
+void _print_change_data_menu3_3_1(void) {   // печатает меню параметров изменения целей
     printf("%s\n\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, change_data1_3[0].str1, change_data1_3[1].str1, change_data1_3[2].str1, change_data1_3[3].str1, change_data1_3[4].str1, change_data1_3[5].str1, change_data1_3[6].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[2]);
     printf("\n");
@@ -167,7 +167,7 @@ void _change_data_menu3_4(void) {
     }
 }
 
-void _print_change_data_menu3_4(void) {
+void _print_change_data_menu3_4(void) { // печатает меню выбора задачи
     printf("%s\n\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, tasks_menu[0].str1, tasks_menu[1].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[1]);
     printf("\n");
@@ -200,7 +200,7 @@ void _change_data_menu3_4_1(void) {
     }
 }
 
-void _print_change_data_menu3_4_1(void) {
+void _print_change_data_menu3_4_1(void) {   // печатает меню параметров изменения целелй
     printf("%s\n\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\t%s\n\n%s", menu_main_args[0].str1, change_data1_4[0].str1, change_data1_4[1].str1, change_data1_4[2].str1, change_data1_4[3].str1, change_data1_4[4].str1, change_data1_4[5].str1, change_data1_4[6].str1, menu_main_args[1].str1);
     scanf("%hd", &degrees[2]);
     printf("\n");
