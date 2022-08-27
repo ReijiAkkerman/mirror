@@ -1,0 +1,2 @@
+void _print_additional_functions(void);             // печатает меню с дополнительными функциями
+void _additional_functions1(void);                  // обрабатывает выбор пользователя из меню с доп. функциями

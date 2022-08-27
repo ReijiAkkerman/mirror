@@ -2,12 +2,11 @@
 
 #include "../Global/headers/Global_variables.h"
 #include "../Data/headers/Data.h"
+#include "Menu_2/Menu_2.h"
 #include "Menu_3/Menu_3.h"
 
-void _additional_functions1(void);      // создает и обрабатывает выбор меню с дополнительными функциями
 void _print_menu(void);                 // печатает меню и передает выбор пользователя в соответствующую переменную
 void _print_char_num(void);             // уведомляет пользователя о необходимости ввести размер таблицы и записывает данные в соответствующую переменную
-void _change_table_size(void);          // записывает размер таблицы
 
 void _menu() {                          // обрабатывает выбранный пользователем пункт
     while(main_choice1 != 8) {          // пока пользователь не укажет выход из программы 
@@ -36,22 +35,6 @@ void _menu() {                          // обрабатывает выбран
             case 7:
                 break;
         }
-    }
-}
-
-void _print_additional_functions(void) {// печатает меню с дополнительными функциями
-    printf("%s\n\n\t%s\n\n%s", menu_main_args[0].str1, additional_functions[0].str1, menu_main_args[1].str1);
-    scanf("%hd", &degrees[0]);
-    printf("\n");
-}
-
-void _additional_functions1(void) {     // обрабатывает выбор пользователя из меню с доп. функциями
-    _print_additional_functions();
-    switch(degrees[0]) {
-        case 1:
-            _writing();
-            
-            break;
     }
 }
 
