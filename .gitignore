@@ -4,3 +4,4 @@
 *.js
 tmp/
 !CMakeLists.txt
+start_program
