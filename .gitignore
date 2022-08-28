@@ -2,4 +2,5 @@
 *.out
 *.txt
 *.js
+tmp/
 !CMakeLists.txt
