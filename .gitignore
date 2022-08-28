@@ -2,4 +2,4 @@
 *.out
 *.txt
 *.js
-.vscode/
+!CMakeLists.txt

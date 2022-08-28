@@ -16,7 +16,7 @@ void _daily(void) {                         // обновляет выводим
     int counter = 0;
     _time();
     FILE* fp;
-    if((fp = fopen("filename.txt", "r")) == NULL) {
+    if((fp = fopen("Data/filename.txt", "r")) == NULL) {
         perror("Ошибка чтения имени файла");
         exit(0);
     }

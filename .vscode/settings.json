@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "global_structs.h": "c",
+        "global_variables.h": "c"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc-9 сборка активного файла",
+            "command": "/usr/bin/gcc-9",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "${fileDirname}/Manipulation/Core/Output.c",
+                "${fileDirname}/Manipulation/Core/Preparing.c",
+                "${fileDirname}/Manipulation/Core/Reading.c",
+                "${fileDirname}/Manipulation/Core/Time.c",
+                "${fileDirname}/Manipulation/Core/Writing.c",
+                "${fileDirname}/Manipulation/Data/Data.c",
+                "${fileDirname}/Manipulation/Global/Global_variables.c",
+                "${fileDirname}/Manipulation/Interface/Interface.c",
+                "${fileDirname}/Manipulation/Interface/Menu_2/Menu_2.c",
+                "${fileDirname}/Manipulation/Interface/Menu_3/Menu_3.c",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-Wall"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
