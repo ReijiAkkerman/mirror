@@ -10,6 +10,7 @@ char* _r_intToStr(int num);             // создает строку из чи
 int _r_num_strToInt(char* str_arg);     // возвращает число полученное изначально в строковом формате - в формате числа
 int _r_digits_multiply(int digits);     // возвращает числу записанному ранее в строковом формате - нужную разрядность
 char* _r_clear_text(char* p_temp);      // возвращает текст без последующего за ним в изначальном формате мусора
+char* _r_chars_cut_out(void);           // обрезает массив символов оставляя только используемые символы и в конце один нулевой символ
 
 void _time(void);                       // заполняет массив отвечающий за время значениями текущего времени
 
@@ -34,7 +35,7 @@ E unsigned short int degrees[];
 
 // Переменные
 
-E int option_of_path;               // вариант выбора папки
+E int option_of_path;                   // вариант выбора папки
 E int choice;                           // 
 E int* p_choice;
 
@@ -95,6 +96,9 @@ E int* p_relative_spaces_amount;
 E const int indent;                     // отступ
 E int space_divider;                    // делитель для определения фиксированного количества пробелов в строках пятого, шестого и седьмого типов 
 E int* p_space_divider;
+
+E char temp_char_array;                 // временный массив для обработки строковых элементов структур
+E char* p_temp_char_array;
 
 // Массивы 
 

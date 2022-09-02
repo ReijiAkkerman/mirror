@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/start_program.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/start_program.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/start_program.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Core/Output.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Output.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Output.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Core/Preparing.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Preparing.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Preparing.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Core/Reading.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Reading.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Reading.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Core/Time.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Time.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Time.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Core/Writing.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Writing.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Core/Writing.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Data/Data.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Data/Data.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Data/Data.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Global/Global_variables.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Global/Global_variables.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Global/Global_variables.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Interface/Interface.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Interface.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Interface.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Interface/Menu_2/Menu_2.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_2/Menu_2.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_2/Menu_2.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Interface/Menu_3/Menu_3.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_3/Menu_3.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_3/Menu_3.c"
+},
+{
+  "directory": "/home/reiji/Documents/My Projects/My_Mirror_v_2/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/a.out.dir/Manipulation/Interface/Menu_4/Menu_4.c.o   -c \"/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_4/Menu_4.c\"",
+  "file": "/home/reiji/Documents/My Projects/My_Mirror_v_2/Manipulation/Interface/Menu_4/Menu_4.c"
+}
+]

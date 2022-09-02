@@ -77,6 +77,9 @@ const int indent = 6;                   // отступ
 int space_divider = 0;                  // делитель для определения фиксированного количества пробелов в строках пятого, шестого и седьмого типов
 int* p_space_divider = &space_divider;
 
+char temp_char_array[100];              // временный массив для обработки строковых элементов структур
+char* p_temp_char_array = temp_char_array;
+
 // Массивы
 
 const int str_array[] = {1, 2, 8, 2, 1, 3, 4, 3, 1, 3, 4, 4, 3, 1,

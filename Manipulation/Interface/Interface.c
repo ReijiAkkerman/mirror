@@ -4,6 +4,7 @@
 #include "../Data/headers/Data.h"
 #include "Menu_2/Menu_2.h"
 #include "Menu_3/Menu_3.h"
+#include "Menu_4/Menu_4.h"
 
 void _confirm(void);                    // подтверждение готовности использования пользовательского меню
 void _print_menu(void);                 // печатает меню и передает выбор пользователя в соответствующую переменную
@@ -22,10 +23,10 @@ void _menu() {                          // обрабатывает выбран
                 _additional_functions1();
                 break;
             case 3:
-                _change_data_menu3();
+                _add_data3();
                 break;
             case 4:
-                
+                _change_data_menu4();
                 break;
             case 5:
                 _reading();             // считываем данные с последнего созданного файла

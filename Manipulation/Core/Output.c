@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "../Global/headers/Global_variables.h"
 #include "../Data/headers/Data.h"
@@ -665,6 +666,13 @@ void _r_digits_(int num) {                              // вычисляет к
     else {
         (*p_digits)++;
     }
+}
+
+char* _r_chars_cut_out(void) {                          // обрезает массив символов оставляя только используемые символы и в конце один нулевой символ
+    for(int i = 0; i < 100; i++)
+        p_temp_char_array[i] = '\0';
+    _r_text_size(p_temp_char_array);
+    char* a = malloc(array[0] + 1);
 }
 
 void _add_x_bytes_2(char* text1, char* text2) {         // возвращает массив сумм байт от сложения двух кириллических строк(нужно для увеличения строк с двумя кириллическими аргументами на соответствующее количество байт)

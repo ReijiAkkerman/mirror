@@ -168,13 +168,8 @@ char* _data_preparing(void) {                           // возвращает 
         }
         data_array[counter] = '\n';
         counter++;
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
-        _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
+        for(int k = 0; k < 7; k++)
+            _short_write_int_skills(data_array, temp, p_skills_struct_counter, p_counter, p_skills);
         (*p_skills_struct_counter)++;
         *p_choice = 1;
     }
@@ -188,12 +183,8 @@ char* _data_preparing(void) {                           // возвращает 
         }
         data_array[counter] = '\n';
         counter++;
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
-        _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
+        for(int k = 0; k < 6; k++)
+            _short_write_int_aims(data_array, temp, p_aims_struct_counter, p_counter, p_aims);
         (*p_aims_struct_counter)++;
         *p_choice = 2;
     }
@@ -206,12 +197,8 @@ char* _data_preparing(void) {                           // возвращает 
         }
         data_array[counter] = '\n';
         counter++;
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
-        _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
+        for(int k = 0; k < 6; k++)
+            _short_write_int_tasks(data_array, temp, p_tasks_struct_counter, p_counter, p_tasks);
         (*p_tasks_struct_counter)++;
         *p_choice = 2;
     }
